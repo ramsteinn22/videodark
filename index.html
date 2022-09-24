@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vídeo for all</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <style>
+        .linkedin-share-button{
+            display: inline-block;            
+            width: 40px;
+            height: 40px;
+            margin: 1px;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            background-size: 100% 100%; /* ou 'contain' */
+            background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSI2MHB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA2MCA2MCIgd2lkdGg9IjYwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0ic29pY2FsIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSI+PGcgaWQ9InNvY2lhbCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTc3My4wMDAwMDAsIC0xMzguMDAwMDAwKSI+PGcgaWQ9InNsaWNlcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTczLjAwMDAwMCwgMTM4LjAwMDAwMCkiLz48ZyBmaWxsPSIjMzQ2REE2IiBpZD0ic3F1YXJlLWZsYXQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE3My4wMDAwMDAsIDEzOC4wMDAwMDApIj48cGF0aCBkPSJNNjAyLjk5NTkzNywwIEw2NTcuMDA0MDYzLDAgQzY1OC42NTg2NzMsMCA2NjAsMS4zMzczMDk3NCA2NjAsMi45OTU5Mzc0MyBMNjYwLDU3LjAwNDA2MjYgQzY2MCw1OC42NTg2NzMxIDY1OC42NjI2OSw2MCA2NTcuMDA0MDYzLDYwIEw2MDIuOTk1OTM3LDYwIEM2MDEuMzQxMzI3LDYwIDYwMCw1OC42NjI2OTAzIDYwMCw1Ny4wMDQwNjI2IEw2MDAsMi45OTU5Mzc0MyBDNjAwLDEuMzQxMzI2ODggNjAxLjMzNzMxLDAgNjAyLjk5NTkzNywwIFoiIGlkPSJzcXVhcmUtNyIvPjwvZz48ZyBmaWxsPSIjRkZGRkZGIiBpZD0iaWNvbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTgyLjAwMDAwMCwgMTUwLjAwMDAwMCkiPjxwYXRoIGQ9Ik02MTIuODgzMDc1LDMxLjgyMzE1MTIgTDYxMi44ODMwNzUsMTMuNTI0MzM4OSBMNjA3LjIyNzM3LDEzLjUyNDMzODkgTDYwNy4yMjczNywzMS44MjMxNTEyIEw2MTIuODgzMDc1LDMxLjgyMzE1MTIgWiBNNjEyLjg4MzA3NSw3LjAzODIxNDU1IEM2MTIuODQ5Mzg4LDUuNDAwNjU5OTYgNjExLjc1ODAxNiw0LjE1Mzg0NjE1IDYwOS45ODUwNTQsNC4xNTM4NDYxNSBDNjA4LjIxMTYzMiw0LjE1Mzg0NjE1IDYwNy4wNTI4ODUsNS40MDA2NTk5NiA2MDcuMDUyODg1LDcuMDM4MjE0NTUgQzYwNy4wNTI4ODUsOC42NDAyMDIzNCA2MDguMTc3OTQ0LDkuOTIzMDc2OTIgNjA5LjkxNzIxOSw5LjkyMzA3NjkyIEw2MDkuOTUwOTA2LDkuOTIzMDc2OTIgQzYxMS43NTgwMTYsOS45MjMwNzY5MiA2MTIuODgzMDc1LDguNjQwMjAyMzQgNjEyLjg4MzA3NSw3LjAzODIxNDU1IFogTTYyMi4xMTAwNDIsMzEuODIzMTUxNyBMNjIyLjExMDA0MiwyMS4zOTczNzI5IEM2MjIuMTEwMDQyLDIwLjgzOTQwMTQgNjIyLjE1MDM3LDIwLjI4MTQzIDYyMi4zMTQ0NDcsMTkuODgzNjY4MiBDNjIyLjc2MzAzNCwxOC43NjgyNzc4IDYyMy43ODM5NTYsMTcuNjEzNjYzNyA2MjUuNDk4MTk5LDE3LjYxMzY2MzcgQzYyNy43NDM4OTYsMTcuNjEzNjYzNyA2MjkuMTUyMjc4LDE4Ljg4ODE1ODcgNjI5LjE1MjI3OCwyMS4zOTczNzI3IEw2MjkuMTUyMjc4LDMxLjgyMzE1MTYgTDYzNC44NDYxNTQsMzEuODIzMTUxNyBMNjM0Ljg0NjE1NCwyMS4xMTgzODcyIEM2MzQuODQ2MTU0LDE1LjM4Mzk4NzggNjMxLjc4NTA0NSwxMi43MTU2NjkgNjI3LjcwMTkxLDEyLjcxNTY2OSBDNjI0LjM1NDA4MSwxMi43MTU2NjkgNjIyLjg4NDU3MiwxNC41ODczNTkzIDYyMi4wNjg2MDgsMTUuODYxMzAyIEw2MjIuMTA5NDg5LDEzLjQxMzkxMjMgTDYxNi40MjU0NjIsMTMuNDEzOTEyMyBDNjE2LjUwNzIyNCwxNS4xNjU3MjE1IDYxNi40MjU0NjIsMzEuODIzMTUxNiA2MTYuNDI1NDYyLDMxLjgyMzE1MTYgTDYyMi4xMTAwNDIsMzEuODIzMTUxNyBaIiBpZD0ibGlua2VkaW4iLz48L2c+PC9nPjwvZz48L3N2Zz4="); /*Base 64 Icon by Xinh Studio*/
+            background-repeat: no-repeat;
+            background-position: center;
+        }        
+    </style>
+    
+  </head>
+  <body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0" nonce="3xP5vU4f"></script>
+
+    <main>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="osinaldevideo.html">Sínal de Vídeo</a></li>
+          <li><a href="gravardslr.html">Gravar com DSLR</a></li>
+          <li><a href="distanciafocal.html">Distância Focal</a></li>
+          <li><a href="estudioinfo.html">O Estúdio de Informação</a></li>
+          <li>
+            <a href="#">Outros conceitos</a>
+            <ul>
+              <li><a href="profundidade.html">Profundidade de campo</a></li>
+              <li><a href="obturacao.html">Velocidade de obturação</a></li>
+              <li><a href="abertura.html">Abertura e exposição</a></li>
+              <li><a href="canaltelevisao.html">Canal de televisão</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+      </nav>
+     
+      <div class="box">
+        <h2>UM POUCO DE HISTÓRIA DA TELEVISÃO</h2>
+        <br />
+
+        <img class="tv" src="https://i.imgur.com/jHU2Oip.jpg" />
+
+        <p>
+          No ano de 1873 reparou-se nas propriedades fotoelétricas do Selénio.
+        </p>
+        <br />
+        <p>
+          Em 1878 o Dr. Adriano Paiva professor de Física da Academia
+          Politécnica do Porto sugeriu o uso do Selénio para a Telescopia
+          Elétrica. A ideia era a de uma câmara obscura que iria projectar a sua
+          imagem óptica numa placa feita de Selénio, teria então que se inventar
+          um meio de transformar esta energia absorvida pela placa em correntes
+          elétricas de modo a formar-se a imagem.
+        </p>
+        <br />
+        <p>
+          Também em 1878 Constantin Senlecq teve a ideia de um aparelho, baseado
+          no telégrafo, ao qual chamou de Telectroscópio. Neste sistema,
+          composto por um emissor e um recetor, a imagem a transmitir seria
+          captada pela lente de uma câmara obscura que a iria projectar numa
+          tela, a energia luminosa gerada por esta imagem era convertida em
+          energia elétrica de diferente intensidade, esta variava de acordo com
+          a as diferentes intensidades da energia luminosa ( uma maior
+          quantidade de luz dava origem a uma corrente elétrica com maior
+          intensidade e uma menor quantidade de luz originava uma corrente
+          elétrica com menor intensidade ), no recetor seria anexado um lápis
+          que, dependendo da intensidade da corrente, iria registar numa folha
+          de papel traços mais ou menos escuros.
+        </p>
+        <br />
+        <p>
+          Corria o ano de 1884 quando o alemão Paul Nipkow teve a ideia do
+          primeiro sistema de exploração de imagem ( pode-se considerar também
+          sistema de dissecção ou análise de imagem ), o chamado disco de
+          Nipkow, que consistia no seguinte: um disco giratório com perfurações
+          em espiral faz a exploração da imagem a captar ( decompõe a imagem em vários
+          pontos ), cada ponto de luz é enviado para uma lente, se
+          olhar-mos para essa lente podemos ver uma imagem continua derivada da
+          rápida rotação do disco
+          <a href="https://www.youtube.com/watch?v=Bbbi2DP8XzU" target="_blank"
+            >( vídeo demonstrativo no youtube )</a
+          >.
+        </p>
+        <br />
+        <p>
+          Nos anos vinte, Jonhn Logie Baird baseou-se na invenção de Nipkow e
+          inventou o sistema mecânico de televisão, este era composto por um
+          disco giratório transmissor e um disco giratório receptor. A luz da
+          cena a captar chega ao disco transmissor que faz a exploração da
+          imagem, ou seja, decompõe a imagem em vários pontos, cada ponto de luz
+          atinge uma célula fotoeléctrica que transforma a energia luminosa em
+          energia eléctrica ( maior quantidade de luz, mais intensidade de
+          corrente eléctrica, menor quantidade de luz, menor intensidade de
+          corrente eléctrica, ou seja, ponto de luz escuro, menor corrente
+          eléctrica, ponto de luz claro, mais corrente eléctrica ) essa energia
+          é enviada para o receptor equipado com uma lâmpada de néon que pisca
+          escuro ou claro de acordo com a intensidade da corrente eléctrica que
+          recebe, essa lâmpada envia a luz para um disco receptor que gira à
+          mesma velocidade do disco transmissor, assim o disco receptor consegue
+          fazer a exploração da imagem recebida projectando-a num ecrã.
+        </p>
+        <br />
+        <p>
+          Em 1926 Philo Farnsworth construiu a sua primeira câmara de televisão
+          assim como um aparelho receptor e no ano seguinte fez a primeira
+          transmissão electrónica de televisão enviando uma linha de imagem para
+          o receptor colocado noutra divisão da sua casa.
+        </p>
+        <br />
+        <p>
+          No ano de 1929 Vladymir Zworykin inventou o cinescópio que viria ser
+          utilizado em receptores de televisão, inventou também o iconoscópio
+          que é um tubo para a transmissão televisiva utilizado nas câmaras de
+          televisão ( câmaras de tubos ).
+        </p>
+        <br />
+        <p>
+          Mais tarde o receptor de televisão viria a ser inventado por Louis
+          Parker em 1948, foi também nesta data que surgiu a ideia da televisão
+          por cabo, quando John Walson, um vendedor de aparelhos de televisão,
+          conectou, através de cabo, uma antena, instalada no topo de uma
+          montanha, á antena da sua loja de televisões e ás antenas de várias
+          casas dos seus clientes dando origem ao primeiro sistema de CATV (
+          Community Antenna Television, que mais tarde se iria chamar de Cable
+          Television ). Em 1954 surgiu nos Estados Unidos a televisão a cores
+          que utiliza o padrão NTSC ( National Television System Committee ). Em
+          1967 aparece na Europa o padrão PAL ( Phase Alternation Line ) e o
+          padrão SECAM ( Séquentiel Couleur á Mémoire ).</p> <br> <p>Em 1970 Willard S.
+          Boyle, que trabalhava para os laboratórios Bell, desenvolve o
+          dispositivo CCD ( Charge Coupled Device ) um sensor que converte a
+          energia luminosa em energia elétrica, este é constituido por pontos de
+          imagem ( pixels ). Também na década de 70 começou a ser pensada a
+          televisão digital. Os japoneses começaram a estudar a possibilidade de
+          uma televisão em alta definição a HDTV ( High Defenition Television ).
+          Nos anos 80 começaram a ser feitos testes desta nova tecnologia.</p> <br> <p> Nos
+          anos 90 começaram as transmissões exprimentais da televisão digital.
+          Surgiram três padrões de transmissão digital : o ATSC ( Advanced
+          Television System Committee ) utilizado pelos americanos, o ISDB (
+          Integrated Services Digital Broadcasting ) padrão japonês, e o DVB (
+          Digital Vídeo Broadcasting ) padrão europeu.</p>
+        </p>
+      </div>
+    
+    <div class="leitor">
+      <h1>Para o relax, escolhe uma ou várias músicas do teu pc para tocar</h1>
+      <label class="custom-file-upload">
+        <input type="file" name="songs" multiple />
+        Clica aqui para adicionares as tuas músicas! 🎶
+      </label>
+      <audio></audio>
+      <button id="prev">⏪</button>
+      <button id="play">▶</button>
+      <button id="stop">⏹</button>
+      <button id="next">⏩</button>
+  
+      <script src="estilo/javascript/java.js"></script>
+    </div>
+     <br>
+     <br>
+
+     <div id="disqus_thread">
+      <script>
+      
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      
+      var disqus_config = function () {
+      this.page.url = 'https://ramsteinn22.github.io/video/';  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = '4532469'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://site-7gexugvfce.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    <br>
+    <div class="fb-share-button" data-href="https://codesandbox.io/s/video-color-black-lvlxky?file=/index.html" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcodesandbox.io%2Fs%2Fvideo-color-black-lvlxky%3Ffile%3D%252Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartilhar</a></div>
+    <a href="" id="linkedin-share-btt" rel="nofollow" target="_blank" class="linkedin-share-button"></a>
+    
+    <!-- Você pode colocar este script num arquivo externo -->
+    <script type="text/javascript">
+        //Constrói a URL depois que o DOM estiver pronto
+        document.addEventListener("DOMContentLoaded", function() {
+            var url = encodeURIComponent(window.location.href); //url
+            var titulo = encodeURIComponent(document.title); //título
+            var linkedinLink = "https://www.linkedin.com/shareArticle?mini=true&url="+url+"&title="+titulo;
+            
+            //tenta obter o conteúdo da meta tag description
+            var summary = document.querySelector("meta[name='description']");            
+            summary = (!!summary)? summary.getAttribute("content") : null;
+            
+            //se a meta tag description estiver ausente...
+            if(!summary){
+                //...tenta obter o conteúdo da meta tag og:description
+                summary = document.querySelector("meta[property='og:description']");
+                summary = (!!summary)? summary.getAttribute("content") : null;
+            }
+            //altera o link do botão
+            linkedinLink = (!!summary)? linkedinLink + "&summary=" + encodeURIComponent(summary) : linkedinLink;
+            document.getElementById("linkedin-share-btt").href = linkedinLink;
+        }, false);
+    </script>
+    </main>
+
+    
+  </body>
+</html>
